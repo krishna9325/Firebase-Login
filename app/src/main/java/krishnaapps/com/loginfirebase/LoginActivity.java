@@ -14,7 +14,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         signupLaunch = findViewById(R.id.sign_up_launch);
         forgetPassword = findViewById(R.id.forget_password);
