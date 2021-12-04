@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285168527283",
+    "firebase_url": "https://loginsignup-5a91b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "loginsignup-5a91b",
+    "storage_bucket": "loginsignup-5a91b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285168527283:android:8365293bfa29e10d920dc6",
+        "android_client_info": {
+          "package_name": "krishnaapps.com.loginfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285168527283-nk0j1mhp8buron9puhju3bnhf32pvl6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxiTLRKOSEFHHuKsXVds8xR4yNoOMvl5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285168527283-nk0j1mhp8buron9puhju3bnhf32pvl6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

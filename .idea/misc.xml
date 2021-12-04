@@ -6,10 +6,14 @@
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/drawable/background_custom.xml" value="0.25364583333333335" />
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/drawable/button_custom.xml" value="0.17395833333333333" />
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/drawable/ic_back.xml" value="0.20104166666666667" />
+        <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/drawable/ic_mail.xml" value="0.18697916666666667" />
+        <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/drawable/ic_person.xml" value="0.13020833333333334" />
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/drawable/input_text.xml" value="0.17395833333333333" />
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/drawable/layout_custom.xml" value="0.25364583333333335" />
+        <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/layout/activity_login.xml" value="0.159375" />
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/layout/activity_password.xml" value="0.18489583333333334" />
+        <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/layout/activity_profile.xml" value="0.16145833333333334" />
         <entry key="..\:/Youtube Projects/loginfirebase/app/src/main/res/layout/activity_signup.xml" value="0.2375" />
       </map>
     </option>

@@ -4,14 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clickable="true"
-    android:focusableInTouchMode="true"
     android:background="@color/light_gray"
-    tools:context=".SignupActivity"
-    android:focusable="true">
+    tools:context=".LoginActivity">
 
     <ProgressBar
-        android:id="@+id/progress_bar_signup"
+        android:id="@+id/progress_bar_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -23,14 +20,14 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/card_view"
         android:layout_marginStart="15dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="60dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/actor"
-            android:text="Let's start with"
+            android:text="Welcome to FA"
             android:textColor="#1C1B1B"
             android:textSize="28sp" />
 
@@ -38,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/actor"
-            android:text="Register!!"
+            android:text="App!!"
             android:textColor="#1C1B1B"
             android:textSize="28sp" />
 
@@ -61,69 +58,54 @@
             android:padding="20dp">
 
 
-            <EditText
-                android:id="@+id/register_name"
+            <Button
+                android:id="@+id/login_btn"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@drawable/input_text"
-                android:drawableStart="@drawable/ic_person"
-                android:drawablePadding="14dp"
+                android:layout_below="@+id/login_password"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_custom"
                 android:fontFamily="@font/actor"
-                android:hint="Name" />
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
 
 
             <EditText
-                android:id="@+id/register_mail"
+                android:id="@+id/login_mail"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_below="@+id/register_name"
-                android:layout_marginTop="25dp"
                 android:background="@drawable/input_text"
                 android:drawableStart="@drawable/ic_mail"
                 android:drawablePadding="14dp"
                 android:fontFamily="@font/actor"
-                android:hint="Mail" />
+                android:hint="Enter the mail" />
 
 
             <EditText
-                android:id="@+id/register_password"
+                android:id="@+id/login_password"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_below="@+id/register_mail"
+                android:layout_below="@+id/login_mail"
                 android:layout_marginTop="25dp"
                 android:background="@drawable/input_text"
                 android:drawableStart="@drawable/ic_password"
                 android:drawablePadding="14dp"
                 android:fontFamily="@font/actor"
-                android:hint="Password"
+                android:hint="Enter the password"
                 android:inputType="textPassword" />
 
-
-            <EditText
-                android:id="@+id/register_password_recheck"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_below="@+id/register_password"
-                android:layout_marginTop="25dp"
-                android:background="@drawable/input_text"
-                android:drawableStart="@drawable/ic_password"
-                android:drawablePadding="14dp"
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
                 android:fontFamily="@font/actor"
-                android:hint="Re-Enter password"
-                android:inputType="textPassword" />
-
-            <Button
-                android:id="@+id/register_btn"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_below="@+id/register_password_recheck"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/button_custom"
-                android:fontFamily="@font/actor"
-                android:text="Register"
-                android:textColor="@color/white"
-                android:textSize="18sp" />
-
+                android:text="forget password?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
 
         </RelativeLayout>
 
@@ -141,31 +123,31 @@
         android:paddingStart="20dp"
         android:paddingEnd="20dp">
 
-
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true">
+            android:layout_centerInParent="true"
+            >
 
-            <TextView
-                android:id="@+id/check_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/actor"
-                android:text="Have account?"
-                android:textColor="@color/black"
-                android:textSize="17sp" />
+        <TextView
+            android:id="@+id/check_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have any account?"
+            android:fontFamily="@font/actor"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
 
-            <TextView
-                android:id="@+id/login_launch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@+id/check_text"
-                android:fontFamily="@font/actor"
-                android:text="LOGIN"
-                android:textColor="@color/colorPrimary"
-                android:textSize="17sp" />
+        <TextView
+            android:id="@+id/sign_up_launch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/check_text"
+            android:fontFamily="@font/actor"
+            android:text="SIGN UP"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
 
         </RelativeLayout>
 
